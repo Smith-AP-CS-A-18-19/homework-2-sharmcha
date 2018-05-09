@@ -1,25 +1,32 @@
 public class Homework2 {
 
-	
-
-	/* Use String methods to turn the provided String (input) into all uppercase
-	 * letters and return the result
-	 * Hint: The String class has a 'toUpperCase' method
+	/* Write the constructor for Homework2.
+	 * It takes in one parameter: a String
+	 * Save the string as a private instance variable
 	 */
-	public static String problem2(String input) {
 
-	}
 
-	/* Use String methods to remove punctuation from the provided String (input)
-	 * Hint: The String class has a 'replace' method
+	/* Write the method problem2
+	 * It does not take in any parameters
+	 * It returns a String
+	 * Use String methods to turn the instance variable String into all
+	 * uppercase letters and return the result
+	 * Hint: Search the String class for 'uppercase'
 	 */
-	public static String problem3(String input) {
 
-	}
 
-	/* Fix the errors in the following method
+	/* Write the method problem3
+	 * It takes in one paramter: a string
+	 * It returns a string
+	 * Use String methods to remove punctuation from the parameter String
+	 * It should remove spaces, commas, periods, and exclamation points.
+	 * Hint: Search the String class for 'replace'
 	 */
-	public static Rectangle problem4() {
+
+
+	/* Fix the errors in the method problem4
+	 */
+	public Rectangle problem4() {
 		Rectangle r1 = (5, 10, 15, 20);
 		double width = Rectangle(5, 10, 15, 20).getWidth();
 		Rectangle r2;
@@ -29,10 +36,11 @@ public class Homework2 {
 		return r3;
 	}
 
+
 	/* Use Rectangle methods to calculate and return the perimiter of the
-	 * provided Rectangle (rect)
+	 * parameter Rectangle
 	 */
-	public static int problem5(Rectangle rect) {
+	public int problem5(Rectangle rect) {
 
 	}
 
