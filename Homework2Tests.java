@@ -17,7 +17,7 @@ public class Homework2Tests {
 			exitCode += 1;
 		}
 
-		if (Homework1.problem3().equals("HelloWorld")) {
+		if (hw2.problem3().equals("HelloWorld")) {
 			System.out.println("Pass 3");
 		} else {
 			System.out.println("Fail 3");
@@ -43,7 +43,7 @@ public class Homework2Tests {
 		} else {
 			System.out.println("Fail");
 		}
-		
+
 		System.exit(exitCode);
 	}
 
