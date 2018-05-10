@@ -2,6 +2,8 @@
  * First and Last Names
  */
 
+import java.awt.Rectangle;
+
 public class Homework2 {
 
 	/* Write the constructor for Homework2.
@@ -20,8 +22,8 @@ public class Homework2 {
 
 
 	/* Write the method problem3
-	 * It takes in one paramter: a string
-	 * It returns a string
+	 * It takes in one paramter: a String
+	 * It returns a String
 	 * Use String methods to remove punctuation from the parameter String
 	 * It should remove spaces, commas, periods, and exclamation points.
 	 * Hint: Search the String class for 'replace'
@@ -44,7 +46,7 @@ public class Homework2 {
 	/* Use Rectangle methods to calculate and return the perimiter of the
 	 * parameter Rectangle
 	 */
-	public int problem5(Rectangle rect) {
+	public double problem5(Rectangle rect) {
 
 	}
 

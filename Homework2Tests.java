@@ -1,3 +1,5 @@
+import java.awt.Rectangle;
+
 public class Homework2Tests {
 
 	/* Tests to verify that your solutions work
@@ -17,7 +19,7 @@ public class Homework2Tests {
 			exitCode += 1;
 		}
 
-		if (hw2.problem3().equals("HelloWorld")) {
+		if (hw2.problem3("Good Morning, Dave!").equals("GoodMorningDave")) {
 			System.out.println("Pass 3");
 		} else {
 			System.out.println("Fail 3");
