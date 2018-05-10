@@ -1,3 +1,7 @@
+/*
+ * First and Last Names
+ */
+
 public class Homework2 {
 
 	/* Write the constructor for Homework2.
