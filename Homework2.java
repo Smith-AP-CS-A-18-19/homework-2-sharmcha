@@ -12,7 +12,7 @@ public class Homework2 {
 	 */
 
 
-	/* Write the method problem2
+	/* Write the method upperase
 	 * It does not take in any parameters
 	 * It returns a String
 	 * Use String methods to turn the instance variable String into all
@@ -21,7 +21,7 @@ public class Homework2 {
 	 */
 
 
-	/* Write the method problem3
+	/* Write the method strip
 	 * It takes in one paramter: a String
 	 * It returns a String
 	 * Use String methods to remove punctuation from the parameter String
@@ -32,7 +32,7 @@ public class Homework2 {
 
 	/* Fix the errors in the method problem4
 	 */
-	public Rectangle problem4() {
+	public Rectangle problems() {
 		Rectangle r1 = (5, 10, 15, 20);
 		double width = Rectangle(5, 10, 15, 20).getWidth();
 		Rectangle r2;
@@ -43,10 +43,10 @@ public class Homework2 {
 	}
 
 
-	/* Use Rectangle methods to calculate and return the perimiter of the
+	/* Use Rectangle methods to calculate and return the perimeter of the
 	 * parameter Rectangle
 	 */
-	public double problem5(Rectangle rect) {
+	public double getPerimeter(Rectangle rect) {
 
 	}
 

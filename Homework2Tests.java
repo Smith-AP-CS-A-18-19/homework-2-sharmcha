@@ -12,28 +12,28 @@ public class Homework2Tests {
 		Homework2 hw2 = new Homework2("Hello, World!");
 		System.out.println("Pass 1");
 
-		if (hw2.problem2().equals("HELLO, WORLD!")) {
+		if (hw2.upperase().equals("HELLO, WORLD!")) {
 			System.out.println("Pass 2");
 		} else {
 			System.out.println("Fail 2");
 			exitCode += 1;
 		}
 
-		if (hw2.problem3("Good Morning, Dave!").equals("GoodMorningDave")) {
+		if (hw2.strip("Good Morning, Dave!").equals("GoodMorningDave")) {
 			System.out.println("Pass 3");
 		} else {
 			System.out.println("Fail 3");
 			exitCode += 1;
 		}
 
-		if (hw2.problem4() != null) {
+		if (hw2.problems() != null) {
 			System.out.println("Pass 4");
 		} else {
 			System.out.println("Fail 4");
 			exitCode += 1;
 		}
 
-		if (hw2.problem5(new Rectangle(5, 10, 20, 30)) == 100) {
+		if (hw2.getPerimeter(new Rectangle(5, 10, 20, 30)) == 100) {
 			System.out.println("Pass 5");
 		} else {
 			System.out.println("Fail 5");
