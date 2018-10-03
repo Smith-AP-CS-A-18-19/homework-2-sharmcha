@@ -1,4 +1,5 @@
 // sharmcha
+// sharmcha
 /*
  * Charvi Sharma
  */
@@ -35,15 +36,14 @@ public class Homework2 {
 	 * Hint: Search the String class for 'replace'
 	 */
 	 public String strip(String hi){
-		 /* So close! Instead of calling replace on
-		  * phrase, you should be calling it on hi
-		  */
 		 hi = phrase.replace(" ", "");
 		 hi = phrase.replace(",", "");
 		 hi = phrase.replace(".", "");
 		 hi = phrase.replace("!", "");
 		 return hi;
-
+		 /* So close! Instead of calling replace on
+		  * phrase, you should be calling it on hi
+		  */
 	 }
 	/* Fix the errors in the method problem4
 	 */
